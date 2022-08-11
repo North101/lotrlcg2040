@@ -1,6 +1,6 @@
 import badger2040
 from badger_ui import App, Offset, Size, Widget
-from badger_ui.center import Center
+from badger_ui.align import Center
 from badger_ui.text import TextWidget
 from lotrlcg2040.data import eye_icon
 
