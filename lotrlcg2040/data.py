@@ -1,5 +1,5 @@
 from badger_ui.util import Image
 
-import lotrlcg2040
+from lotrlcg2040 import assets_dir
 
-eye_icon = Image(f'{lotrlcg2040.assets_dir}/eye.bin', 64, 64)
+eye_icon = Image(f'{assets_dir}/eye.bin', 64, 64)
