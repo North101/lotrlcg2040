@@ -1,0 +1,13 @@
+{
+    "version": "0.1",
+    "urls": [
+        ["lotrlcg2040/assets/eye.bin", "github:North101/lotrlcg2040/assets/eye.bin"],
+        ["lotrlcg2040/widgets/app.py", "github:North101/lotrlcg2040/widgets/app.py"],
+        ["lotrlcg2040/widgets/tracker_screen.py", "github:North101/lotrlcg2040/widgets/tracker_screen.py"],
+        ["lotrlcg2040/__init__.py", "lotrlcg2040/_github:North101/_init__.py"],
+        ["lotrlcg2040/data.py", "lotrlcg2040/dgithub:North101/data.py"]
+    ],
+    "deps": [
+        ["github:North101/badger_ui", "master"]
+    ]
+}
