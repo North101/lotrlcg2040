@@ -1,4 +1,3 @@
-import badger2040
 from badger_ui import App
 
 from .tracker_screen import TrackerScreen

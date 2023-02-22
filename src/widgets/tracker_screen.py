@@ -1,4 +1,4 @@
-import badger2040
+import badger2040w
 from badger_ui import App, Offset, Size, Widget
 from badger_ui.align import Center
 from badger_ui.text import TextWidget
@@ -11,11 +11,11 @@ class TrackerScreen(Widget):
     self.threat = 20
 
   def on_button(self, app: App, pressed: dict[int, bool]) -> bool:
-    if pressed[badger2040.BUTTON_UP]:
+    if pressed[badger2040w.BUTTON_UP]:
       self.threat = min(self.threat + 1, 50)
       return True
 
-    elif pressed[badger2040.BUTTON_DOWN]:
+    elif pressed[badger2040w.BUTTON_DOWN]:
       self.threat = max(self.threat - 1, 0)
       return True
 
